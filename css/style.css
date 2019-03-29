@@ -87,6 +87,7 @@ p {
   position:relative;
   left:5.3vw;
   top:3%;
+    z-index: 2;
 }
 
 .hamburger {
@@ -161,8 +162,7 @@ section{
   background-position: 90%;
   background-repeat: no-repeat;
   height:100vh;
-  /*margin-top: -5px;
-  padding-top: 10px;*/
+
 
 }
 
@@ -209,7 +209,17 @@ section{
   position: fixed;
   margin-top:100px;
   left:10%;
+}
 
+
+.about {
+  background: url('../img/about-bg.png');
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: right, 100px;
+  background-repeat: no-repeat;
+  height:100vh;
 }
 
 
@@ -487,7 +497,48 @@ button:hover{
   margin-bottom: -10px;
   height: 60vw;
 
+}
 
+.biography img {
+  width:80vw;
+  display:block;
+  margin:0 auto;
+}
+
+.nyc {
+  width:80vw;
+  display:block;
+  margin:0 auto;
+}
+
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position:fixed;
+  bottom:0px;
+  background-image: linear-gradient(
+    rgba(0,0,0,0),
+    rgba(0,0,0,0),
+    white,
+    white,
+    white,
+    white,
+    white);
+  background-attachment: local;
+  margin-top: 100px;
+}
+
+.container .hero {
+  position:relative;
+}
+
+.bio-text {
+  padding: 2vw;
+  text-indent:30px;
+  min-width:250px;
 
 }
 
@@ -517,13 +568,16 @@ button:hover{
  }
 
 .FILLER {
-  width: 100vw; height:250px; background-color:blue
+  width: 100vw;
+  height:35vh;
+  /*background-color:blue*/
 }
 
 .tones p{
   padding: 0px 7vw;
   padding-bottom:20px;
 }
+
 
 
 .tone-header {
@@ -552,15 +606,24 @@ button:hover{
   max-width: 35px;
 }
 
-/*.contact {
-  padding-left: 30px;
-  padding-right: 30px;
-}*/
 
 .email {
   float: right;
   display: grid;
   grid-template-columns: auto auto;
+
+}
+
+.background-gradient {
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    rgba(122,126,140,0.1),white, white, white
+    );
+  z-index:1;
+
 
 }
 
@@ -609,10 +672,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 20px;
-  justify-content: center;*/
+
 }
 
 footer ul{
@@ -779,6 +839,22 @@ h6{
       -moz-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
       box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
     }
+
+    .about {
+      background-position: -550px;
+    }
+
+    .about h2 {
+      font-size:3.6rem;
+      width:150px;
+      position:relative;
+      top:250px;
+    }
+
+    .nyc {
+        width: 100vw;
+        margin: 2vw 0;
+      }
 
 }
 
@@ -1275,6 +1351,21 @@ ul{
   list-style-position: inside;
 }
 
+.biography img{
+  min-width:350px;
+  width: 35vw;
+  max-width:500px;
+  padding-top:2vw;
+}
+
+.biography {
+  display:grid;
+  grid-template-columns: auto 50%;
+  justify-content: center;
+
+}
+
+
 @media (min-width: 1440px) {
   h1{
     font-size: 4rem;
@@ -1331,6 +1422,10 @@ ul{
     margin:auto auto;
   }
 
+  .biography {
+    width: 70vw;
+    margin: 0 auto;
+  }
 
 
 }
