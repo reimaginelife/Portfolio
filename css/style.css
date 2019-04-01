@@ -336,7 +336,7 @@ nav {
   overflow-x: hidden;
   /* overflow-y: scroll;
   width: 375px;
-  height: 667px;*/
+  height: 733px;*/
 
 
 }
@@ -774,7 +774,8 @@ h6{
   margin-left: -12vw;
 }
 
-@media (max-width:667px){
+@media (max-width:733px){
+
   ul{
     list-style-type: disc;
     list-style-position: inside;
@@ -857,7 +858,9 @@ h6{
 
 }
 
-@media (min-width: 667px) {
+
+
+@media (min-width: 733px) {
   p {
     font-size:1.8rem;
   }
