@@ -206,7 +206,7 @@ section{
 }
 
 .hero {
-  position: fixed;
+  position: relative;
   margin-top:100px;
   left:10%;
 }
