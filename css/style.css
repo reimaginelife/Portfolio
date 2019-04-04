@@ -536,6 +536,7 @@ button:hover{
 
 .container .hero {
   position:relative;
+  margin-top:15vw;
 }
 
 .contact {
@@ -607,7 +608,6 @@ button:hover{
   grid-template-columns: repeat(4, auto);
   column-gap: 2vw;
   width: auto;
-  background-color: red;
 
 }
 
@@ -783,6 +783,16 @@ h6{
   margin-left: -12vw;
 }
 
+.contact-me {
+  display:inline-block;
+  font-family: adobe garamond pro, serif;
+  width:100px;
+  margin-right: 5vw;
+}
+
+input {
+  -webkit-appearance: none;
+}
 @media (max-width:733px){
 
   ul{
