@@ -511,6 +511,9 @@ button:hover{
   margin:0 auto;
 }
 
+.spacer {
+  height: 100px;
+}
 
 .container{
   height: 100vh;
@@ -533,6 +536,13 @@ button:hover{
 
 .container .hero {
   position:relative;
+}
+
+.contact {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  bottom: 0px;
 }
 
 .bio-text {
@@ -590,13 +600,15 @@ button:hover{
 
 
 .social {
-  float:left;
-  position: absolute;
+  float: left;
+  position: relative;
   margin-left: 5vw;
   display: grid;
   grid-template-columns: repeat(4, auto);
   column-gap: 2vw;
-  width: 100px;
+  width: auto;
+  background-color: red;
+
 }
 
 
@@ -666,11 +678,8 @@ button:hover{
 
 footer {
   background-color: #222;
-  height:100px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
 }
 
@@ -834,10 +843,6 @@ h6{
       -webkit-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
       -moz-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
       box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
-    }
-
-    .about {
-      background-position: -550px;
     }
 
     .about h2 {
@@ -1266,9 +1271,6 @@ h6{
     width: 100px;
   }
 
-  .social {
-    column-gap:1vw;
-  }
 
   .tones {
     display: grid;
