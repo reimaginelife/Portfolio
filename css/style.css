@@ -879,7 +879,7 @@ input {
         padding: 10vw 0 10vw 0;
         background-color:white;
         z-index: -1;
-        opacity: 0;
+        visibility: hidden;
         transition: 1s;
       }
 
