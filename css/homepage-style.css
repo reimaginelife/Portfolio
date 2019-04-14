@@ -1,0 +1,9 @@
+.home {
+  background: url('../img/homeimage.png');
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
