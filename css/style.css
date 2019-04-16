@@ -1,6 +1,6 @@
 html{
   font-size: 10px;
-  font-family: adobe garamond pro, serif;
+  font-family: adobe-garamond-pro, serif;
   font-weight: 400;
   font-style: normal;
   line-height: 120%;
@@ -109,7 +109,7 @@ p {
 }
 
 .navigation {
-  font-family: adobe garamond pro, serif;
+  font-family: adobe-garamond-pro, serif;
   font-weight: 400;
   font-style: normal;
   background-color:;
@@ -343,7 +343,7 @@ nav {
 }
 
 .statblocks {
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 1.2rem;
   color: white;
   display: grid;
@@ -378,7 +378,7 @@ nav {
   padding: 0px 0px 10px 0px;
   display: grid;
   grid-template-rows: 85% auto;
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size:1.3rem;
   -webkit-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
@@ -407,7 +407,7 @@ button {
   background-color: #caae7f;
   border: none;
   color: #fff;
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 1.4rem;
   padding: 13px ;
   cursor: pointer;
@@ -589,7 +589,7 @@ button:hover{
 
 .tone-header {
   padding: 24px 100vw 20px 7vw;
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 600;
   font-size:1.8rem;
   width: 100vw;
@@ -688,7 +688,7 @@ footer ul{
 
 input::placeholder {
   color: #c4c4c4;
-  font-family: adobe garamond pro, serif;
+  font-family: adobe-garamond-pro, serif;
   font-weight:400;
   font-style: italic;
   font-size: 1.4rem;
@@ -696,7 +696,7 @@ input::placeholder {
 
 input[placeholder] {
   color: #999;
-  font-family: adobe garamond pro, serif;
+  font-family: adobe-garamond-pro, serif;
   font-weight:400;
   font-style: italic;
   font-size: 1.4rem;
@@ -708,7 +708,7 @@ input[placeholder] {
 
 input[type=text]{
   color: #c4c4c4;
-  font-family: adobe garamond pro, serif;
+  font-family: adobe-garamond-pro, serif;
   font-weight:400;
   font-style: italic;
   font-size: 1.4rem;
@@ -722,7 +722,7 @@ input[type=submit] {
   width: 100%;
   background-color: #CAAE7F;
   border:none;
-  font-family: adobe garamond pro, serif;
+  font-family: adobe-garamond-pro, serif;
   font-weight:400;
   font-size: 1.4rem;
   color: white;
@@ -735,13 +735,13 @@ input[type=submit] {
 /* TEXT */
 
 h1{
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: bold;
   font-size: 3.6rem;
 }
 
 h2{
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
 }
@@ -757,7 +757,7 @@ h4 {
 }
 
 h5 {
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 150%;
@@ -768,7 +768,7 @@ h6{
 }
 
 .proxima {
-  font-family: proxima nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
 
 .divider {
@@ -804,7 +804,7 @@ h6{
 
 .contact-me {
   display:inline-block;
-  font-family: adobe garamond pro, serif;
+  font-family: adobe-garamond-pro, serif;
   width:100px;
   margin-right: 5vw;
 }
@@ -1305,7 +1305,7 @@ input {
 
   input[type=text]{
     color: #c4c4c4;
-    font-family: adobe garamond pro, serif;
+    font-family: adobe-garamond-pro, serif;
     font-weight:400;
     font-style: italic;
     font-size: 1.4rem;
@@ -1438,7 +1438,7 @@ ul{
   }
 
   h5 {
-    font-family: proxima nova, sans-serif;
+    font-family: proxima-nova, sans-serif;
     font-weight: 600;
     font-size: 2.2rem;
     line-height: 150%;
