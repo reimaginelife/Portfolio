@@ -686,6 +686,26 @@ footer ul{
   list-style-type: none
 }
 
+input::placeholder {
+  color: #c4c4c4;
+  font-family: adobe garamond pro, serif;
+  font-weight:400;
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+input[placeholder] {
+  color: #999;
+  font-family: adobe garamond pro, serif;
+  font-weight:400;
+  font-style: italic;
+  font-size: 1.4rem;
+  height: 20px;
+  width: 30vw;
+  padding: 12px 0px 8px 8px;
+  border: none;
+}
+
 input[type=text]{
   color: #c4c4c4;
   font-family: adobe garamond pro, serif;
@@ -879,7 +899,7 @@ input {
         padding: 10vw 0 10vw 0;
         background-color:white;
         z-index: -1;
-        visibility: hidden;
+        opacity: 0;
         transition: 1s;
       }
 
