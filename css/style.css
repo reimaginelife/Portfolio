@@ -72,6 +72,10 @@ p {
   -moz-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
 }
+
+.dark-bg {
+  color: white;
+}
 /* HEADER */
 .header {
   height: 10vw;
@@ -262,17 +266,15 @@ nav {
 }
 
 .work {
-  background: linear-gradient(
-    rgba(122,126,140,1),rgba(46,47,52,1)
-    );
-  background-size: 100vw;
-  background-position: 20% 60%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-image: url('../img/verre-desktop-mockup.png');
+  background-blend-mode: color;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
   height:100vh;
-  font-size: 1.6rem;
+  font-size: 14px;}
 
-
-}
 
 .bg {
   position: fixed;
@@ -287,7 +289,8 @@ nav {
   position: absolute;
   bottom: 10%;
   left:7%;
-  width:450px;
+  right: 7%;
+
   font-size:1.4rem;
   font-weight: 400;
   z-index:1;
@@ -986,16 +989,6 @@ input {
   .mywork {
     visibility: hidden;
   }
-
-  .work {
-    background: linear-gradient(
-      rgba(122,126,140,1),rgba(46,47,52,1)
-      );
-    background-size: 100vw;
-    background-position: right;
-    background-repeat: no-repeat;
-    height:100vh;
-    font-size: 14px;}
 
   .bg{
     position: fixed;
