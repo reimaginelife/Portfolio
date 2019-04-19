@@ -1,10 +1,6 @@
-html{
+ html{
   font-size: 10px;
-<<<<<<< HEAD
-  font-family: adobe garamond pro, serif;
-=======
   font-family: adobe-garamond-pro, serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
   font-weight: 400;
   font-style: normal;
   line-height: 120%;
@@ -76,23 +72,19 @@ p {
   -moz-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
 }
-<<<<<<< HEAD
-=======
+
+
 
 .dark-bg {
   color: white;
 }
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
 /* HEADER */
 .header {
   height: 10vw;
   padding:15px;
   z-index:2;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
 }
 
 .logo {
@@ -124,16 +116,16 @@ p {
 }
 
 .navigation {
-<<<<<<< HEAD
+
   font-family: adobe garamond pro, serif;
   font-weight: 400;
   font-style: normal;
-=======
+
   font-family: adobe-garamond-pro, serif;
   font-weight: 400;
   font-style: normal;
   background-color:;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   float:right;
   position: relative;
   top: 15px;
@@ -181,11 +173,11 @@ section{
 }
 
 .hero h2{
-<<<<<<< HEAD
+
   font-size:4vw;
-=======
+
   font-size:5vw;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
 }
 
 
@@ -226,10 +218,10 @@ section{
 
 .hero {
   position: absolute;
-<<<<<<< HEAD
-=======
+
+
   margin-top:100px;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   padding-left:10%;
 }
 
@@ -272,14 +264,13 @@ nav {
   padding-top:10px;
 }
 
-<<<<<<< HEAD
+
 .about-hero {
   position: absolute;
   top: 0px;
   height: 55vh;
   width: 100vw;
   background-image: url('../img/about-bg.png');
-
   background-blend-mode: color;
   background-size: cover;
   background-position: center;
@@ -303,8 +294,8 @@ nav {
     );
 }
 
-=======
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
+
 .mywork {
   font-size: 1.6rem;
   position: absolute;
@@ -323,7 +314,7 @@ nav {
 }
 
 .work {
-<<<<<<< HEAD
+
     background-image:url('../img/verre-desktop-mockup.png');
     background-color: #666;
     background-blend-mode: lighten;
@@ -334,7 +325,7 @@ nav {
     font-size: 14px;}
 
 }
-=======
+
   background-color: rgba(255, 255, 255, 0.1);
   background-image: url('../img/verre-desktop-mockup.png');
   background-blend-mode: color;
@@ -344,7 +335,7 @@ nav {
   height:100vh;
   font-size: 14px;}
 
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
 
 .bg {
   position: fixed;
@@ -359,12 +350,12 @@ nav {
   position: absolute;
   bottom: 10%;
   left:7%;
-<<<<<<< HEAD
+
   width:450px;
-=======
+
   right: 7%;
 
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-size:1.4rem;
   font-weight: 400;
   z-index:1;
@@ -420,11 +411,11 @@ nav {
 }
 
 .statblocks {
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-size: 1.2rem;
   color: white;
   display: grid;
@@ -459,11 +450,11 @@ nav {
   padding: 0px 0px 10px 0px;
   display: grid;
   grid-template-rows: 85% auto;
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-size:1.3rem;
   -webkit-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
@@ -492,11 +483,11 @@ button {
   background-color: #caae7f;
   border: none;
   color: #fff;
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-size: 1.4rem;
   padding: 13px ;
   cursor: pointer;
@@ -600,40 +591,24 @@ button:hover{
 }
 
 .container{
-<<<<<<< HEAD
   height: 45vh;
-=======
-  height: 100vh;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
   width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
   position:fixed;
   bottom:0px;
-<<<<<<< HEAD
   background-color: white;
-=======
-  background-image: linear-gradient(
-    rgba(0,0,0,0),
-    rgba(0,0,0,0),
-    white,
-    white,
-    white,
-    white,
-    white);
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
-  background-attachment: local;
   margin-top: 300px;
   z-index: 2;
 }
 
-<<<<<<< HEAD
-=======
+
+
 .container .hero {
   position:relative;
   margin-top:15vw;
 }
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
 
 .contact {
   position: fixed;
@@ -689,11 +664,11 @@ button:hover{
 
 .tone-header {
   padding: 24px 100vw 20px 7vw;
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight: 600;
   font-size:1.8rem;
   width: 100vw;
@@ -792,11 +767,11 @@ footer ul{
 
 input::placeholder {
   color: #c4c4c4;
-<<<<<<< HEAD
+
   font-family: adobe garamond pro, serif;
-=======
+
   font-family: adobe-garamond-pro, serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight:400;
   font-style: italic;
   font-size: 1.4rem;
@@ -804,11 +779,11 @@ input::placeholder {
 
 input[placeholder] {
   color: #999;
-<<<<<<< HEAD
+
   font-family: adobe garamond pro, serif;
-=======
+
   font-family: adobe-garamond-pro, serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight:400;
   font-style: italic;
   font-size: 1.4rem;
@@ -820,11 +795,11 @@ input[placeholder] {
 
 input[type=text]{
   color: #c4c4c4;
-<<<<<<< HEAD
+
   font-family: adobe garamond pro, serif;
-=======
+
   font-family: adobe-garamond-pro, serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight:400;
   font-style: italic;
   font-size: 1.4rem;
@@ -838,11 +813,11 @@ input[type=submit] {
   width: 100%;
   background-color: #CAAE7F;
   border:none;
-<<<<<<< HEAD
+
   font-family: adobe garamond pro, serif;
-=======
+
   font-family: adobe-garamond-pro, serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight:400;
   font-size: 1.4rem;
   color: white;
@@ -855,21 +830,21 @@ input[type=submit] {
 /* TEXT */
 
 h1{
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight: bold;
   font-size: 3.6rem;
 }
 
 h2{
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight: bold;
   font-size: 1.8rem;
 }
@@ -885,11 +860,11 @@ h4 {
 }
 
 h5 {
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 150%;
@@ -900,11 +875,11 @@ h6{
 }
 
 .proxima {
-<<<<<<< HEAD
+
   font-family: proxima nova, sans-serif;
-=======
+
   font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
 }
 
 .divider {
@@ -940,11 +915,11 @@ h6{
 
 .contact-me {
   display:inline-block;
-<<<<<<< HEAD
+
   font-family: adobe garamond pro, serif;
-=======
+
   font-family: adobe-garamond-pro, serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
   width:100px;
   margin-right: 5vw;
 }
@@ -1038,7 +1013,7 @@ input {
         height: 100vh;
         padding: 10vw 0 10vw 0;
         background-color:white;
-        z-index: -1;
+        z-index: 1;
         opacity: 0;
         transition: 1s;
       }
@@ -1051,7 +1026,7 @@ input {
 
       }
 
-<<<<<<< HEAD
+
       .container {
         height: 60vh;
       }
@@ -1060,8 +1035,8 @@ input {
         padding-top: 3vh;
       }
 
-=======
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
+
 }
 
 
@@ -1138,7 +1113,7 @@ input {
     visibility: hidden;
   }
 
-<<<<<<< HEAD
+
   .work {
     background-image:url('../img/verre-desktop-mockup.png');
     background-color: #666;
@@ -1150,8 +1125,8 @@ input {
     height:100vh;
     font-size: 14px;}
 
-=======
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
+
   .bg{
     position: fixed;
     left: 30vw;
@@ -1460,11 +1435,11 @@ input {
 
   input[type=text]{
     color: #c4c4c4;
-<<<<<<< HEAD
+
     font-family: adobe garamond pro, serif;
-=======
+
     font-family: adobe-garamond-pro, serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
     font-weight:400;
     font-style: italic;
     font-size: 1.4rem;
@@ -1597,11 +1572,11 @@ ul{
   }
 
   h5 {
-<<<<<<< HEAD
+
     font-family: proxima nova, sans-serif;
-=======
+
     font-family: proxima-nova, sans-serif;
->>>>>>> 59f5afe633422f5edbb62c3b0f91ca9902e25dfb
+
     font-weight: 600;
     font-size: 2.2rem;
     line-height: 150%;
