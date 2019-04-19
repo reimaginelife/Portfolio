@@ -15,6 +15,7 @@ body {
   font-size: 1.8rem;
 }
 
+
 p {
   line-height: 150%;
 }
@@ -326,17 +327,6 @@ nav {
 
 }
 
-  background-color: rgba(255, 255, 255, 0.1);
-  background-image: url('../img/verre-desktop-mockup.png');
-  background-blend-mode: color;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  height:100vh;
-  font-size: 14px;}
-
-
-
 .bg {
   position: fixed;
   top:80px;
@@ -591,7 +581,7 @@ button:hover{
 }
 
 .container{
-  height: 45vh;
+  height: 55vh;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -1113,17 +1103,6 @@ input {
     visibility: hidden;
   }
 
-
-  .work {
-    background-image:url('../img/verre-desktop-mockup.png');
-    background-color: #666;
-    background-blend-mode: lighten;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    height:100vh;
-    font-size: 14px;}
 
 
 
