@@ -234,7 +234,6 @@ section{
   background-size: cover;
   background-position: right, 100px;
   background-repeat: no-repeat;
-  height:100vh;
 }
 
 
@@ -585,7 +584,6 @@ button:hover{
   position:fixed;
   bottom:0px;
   background-color: white;
-  margin-top: 300px;
   z-index: 2;
 }
 
@@ -919,6 +917,11 @@ input {
 
 @media (max-width:733px){
 
+  body {
+    overflow-y: hidden;
+  }
+
+
   ul{
     list-style-type: disc;
     list-style-position: inside;
@@ -975,13 +978,6 @@ input {
       box-shadow: 0px 2px 20px -4px rgba(0,0,0,0.75);
     }
 
-    .about h2 {
-      font-size:3.6rem;
-      width:150px;
-      position:relative;
-      top:250px;
-    }
-
     .nyc {
         width: 100vw;
         margin: 2vw 0;
@@ -996,7 +992,7 @@ input {
         height: 100vh;
         padding: 10vw 0 10vw 0;
         background-color:white;
-        z-index: 1;
+        z-index: -1;
         opacity: 0;
         transition: 1s;
       }
