@@ -173,11 +173,34 @@ section{
 
 }
 
-.hero h2{
-
+.subheader h2 {
   font-size:4vw;
+}
 
-  font-size:5vw;
+.subheader span:before {
+  content: 'UX';
+  animation: animate infinite 15s;
+  color: #caae7f;
+}
+
+@keyframes animate {
+    0% { opacity:1;}
+    10% { opacity:0;}
+  25% {content:'GRAPHIC'}
+    20% {opacity:1;}
+    30% {opacity:0;}
+  45% {content:'MOTION'}
+    40% {opacity:1;}
+    50% {opacity:0;}
+  65% {content:'LANGUAGE'}
+    60% {opacity:1;}
+    70% {opacity:0;}
+  85% {content: 'TYPE'}
+    80% {opacity:1;}
+    90% {opacity:0}
+  }
+
+
 
 }
 
@@ -336,12 +359,10 @@ nav {
 }
 
 .info {
-  position: absolute;
+  position: fixed;
   bottom: 10%;
   left:7%;
   right: 7%;
-
-
   font-size:1.4rem;
   font-weight: 400;
   z-index:1;
@@ -469,16 +490,13 @@ button {
   background-color: #caae7f;
   border: none;
   color: #fff;
-
-  font-family: proxima nova, sans-serif;
-
   font-family: proxima-nova, sans-serif;
-
   font-size: 1.4rem;
   padding: 13px ;
   cursor: pointer;
   margin-top: 10px;
   width:150px;
+  decoration: none;
 
 }
 
@@ -1060,7 +1078,8 @@ input {
   .hero h1{
     font-size: 7.2rem;
   }
-  .hero h2{
+
+  .subheader h2{
     font-size: 4vw;
   }
 
