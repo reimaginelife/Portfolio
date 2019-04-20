@@ -183,7 +183,7 @@ section{
   color: #caae7f;
 }
 
-@keyframes animate {
+@-webkit-keyframes animate {
     0% { opacity:1;}
     10% { opacity:0;}
   25% {content:'GRAPHIC'}
