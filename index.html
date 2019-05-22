@@ -16,48 +16,100 @@
     <title> Raymond On | UX Designer</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/homepage-style.css">
+    <link rel="stylesheet" href="css/work-style.css">
+    <link rel="stylesheet" href="css/fullpage.css">
     <script src="verre-plugin.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/fullpage.css">
     <link rel="stylesheet" href="https://use.typekit.net/pbu1fgv.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
-  <div class="home">
 
-<!--- HEADER --->
+    <!--- HEADER --->
+    <div class="header">
+    <a href="index.html"><img src="img/logo.svg" class="logo"></a>
+    <a href="#" onclick="myFunction()"><img class="hamburger mobile" src="img/hamburger.svg"></a>
 
-<div class="header">
-<a href="index.html"><img src="img/logo.svg" class="logo"></a>
-<a href="#" onclick="myFunction()"><img class="hamburger mobile" src="img/hamburger.svg"></a>
+    <nav class="navigation" id="popup">
+    <a href="#" class="exit mobile" onclick="myFunction()">&#10005;</a>
+      <ul>
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="underconstruction.html">Blog</a></li>
+        <li><a href="mailto:reidesigns.us@gmail.com">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
 
-<nav class="navigation" id="popup">
-<a href="#" class="exit mobile" onclick="myFunction()">&#10005;</a>
-  <ul>
-    <li><a href="work.html">Work</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="mailto:reidesigns.us@gmail.com">Contact</a></li>
-  </ul>
-</nav>
-</div>
-
-<!--- BODY --->
-
-<div class="hero">
-  <h1><span class="highlight">HELLO</span>, MY NAME</br>
-    IS RAYMOND ON </h1><div class="subheader">
-    <h2><span></span> DESIGNER</br>
-    BASED IN LAS VEGAS</p></h2></div>
-    <a href="work.html"><button type ="button" class="desktop" style="margin-top:30px;">See My Work</button></a>
-</div>
-
-<a href="work.html" style="text-decoration:none;">
-  <div class="mywork highlight">
-    <center>My Work</br>
-      <img src="img/downarrow.svg">
-    </center>
+    <!--- BODY --->
+<center><span class="introduction"><h2><span class="highlight">HELLO.</span> I'M RAYMOND ON </span>
+</br></br>
+  <div class="subheader">
+  <h3><span></span> DESIGNER</br>
+  BASED IN LAS VEGAS</p></h3></div></br>
   </div>
-</a>
+</center>
+
+<div class="work-posts">
+
+  <a class="work-button" href="project.html"><div class="work-card">
+      <img src="img/verre-desktop-mockup.png" style="position: relative; bottom:15px;">
+    <div class="project-detail">
+      <h1>Verre</h1>
+      <p>UX Design</p>
+    </div>
+  </div>
+  </a>
+
+  <a class="work-button" href="re-cover.html"><div class="work-card">
+      <img src="img/1q84.png" style="width:105%; overflow-x:hidden;">
+    <div class="project-detail">
+      <h1>reCOVER</h1>
+      <p>Graphic Design</p>
+    </div>
+  </div>
+  </a>
+
+  <a class="work-button" href="5050.html"><div class="work-card">
+      <img src="img/5050/5050-hero4.jpg">
+    <div class="project-detail">
+      <h1>50/50</h1>
+      <p>Graphic Design</p>
+    </div>
+  </div>
+  </a>
+
+  <a class="work-button" href="CAD.html"><div class="work-card">
+      <img src="img/cad/card-mockup-1.png">
+    <div class="project-detail">
+      <h1>Cards Against Daenerys</h1>
+      <p>Graphic Design</br>Creative Writing</p>
+    </div>
+  </div>
+  </a>
+
+
 
 </div>
   </body>
+  <footer>
+  <div class="social">
+    <a href="https://github.com/reimaginelife/" target="_blank"><img src="img/socialbtn/email.svg"></a>
+    <a href="mailto:reimaginelife@aim.com" target="_blank"><img src="img/socialbtn/github.svg"></a>
+    <a href="https://www.linkedin.com/in/raymondon/" target="_blank"><img src="img/socialbtn/linkedin.svg"></a>
+    <a href="https://www.instagram.com/rei.designs" target="_blank"><img src="img/socialbtn/instagram.svg"></a>
+  </div>
+  <span>
+    <form class='email' action="mailto:reidesigns.us@gmail.com">
+      <input type="filler-text" name="Email" placeholder="E-mail Address">
+      <input type="submit" value="Contact Me">
+    </form>
+  </span>
+  </footer>
+
+
+
   </html>
