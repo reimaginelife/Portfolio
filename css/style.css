@@ -95,6 +95,7 @@ p {
   left:5.3vw;
   top:3%;
     z-index: 2;
+    
 }
 
 .hamburger {
@@ -1000,6 +1001,8 @@ input {
         z-index: -1;
         opacity: 0;
         transition: 1s;
+
+
       }
 
       .navigation li{
@@ -1021,6 +1024,14 @@ input {
   margin-left: -50%;
 }
 
+}
+.biography img {
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+.bio-text {
+  margin-left: 5vw;
+  margin-right:5vw;
 }
 
 
@@ -1520,6 +1531,7 @@ ul{
   display:grid;
   grid-template-columns: auto 50%;
   justify-content: center;
+
 
 
 }

@@ -72,6 +72,9 @@ h1 {
 
 }
 
+.navigation a{
+  color: #000000;
+}
 .wide{
   grid-column-start:1;
   grid-column-end:1;

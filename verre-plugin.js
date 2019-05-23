@@ -3,7 +3,6 @@ function myFunction() {
   if (x.style.opacity !== "1") {
     x.style.opacity= "1";
     x.style.zIndex= "100";
-
   } else {
     x.style.opacity = "";
     x.style.zIndex= "";
